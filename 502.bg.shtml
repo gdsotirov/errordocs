@@ -1,0 +1,18 @@
+<!--#set var="title" value="Лош щлюз"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="header"
+-->
+<body>
+
+<!--#include virtual="head"
+--><div id="body">
+<h1><!--#echo var="title" --></h1>
+<p>Щлюза или прокси сървъра получи невалиден отговор</p>
+<p>Работейки като шлюз или прокси, сървъра получи невалиден отговор от
+по-горния сървър, който достъпи, в опита си да изпълни заявката.</p>
+</div>
+
+<!--#include virtual="foot"
+--></body>
+
+</html>

@@ -1,0 +1,18 @@
+<!--#set var="title" value="Bad Gateway"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="header"
+-->
+<body>
+
+<!--#include virtual="head"
+--><div id="body">
+<h1><!--#echo var="title" --></h1>
+<p>The gateway or proxy returned an invalid response</p>
+<p>When acting as a gatway or proxy the server received an invalid response
+from the upstream server it accessed in attempting to filfull the request.</p>
+</div>
+
+<!--#include virtual="foot"
+--></body>
+
+</html>

@@ -1,0 +1,19 @@
+<!--#set var="title" value="Неосъществено"
+--><!--#set var="cache_control" value="no-store"
+--><!--#include virtual="header"
+-->
+<body>
+
+<!--#include virtual="head"
+--><div id="body">
+<h1><!--#echo var="title" --></h1>
+<p>Сървъра не поддържа функционалността изисквана за изпълняването на
+заявката.</p>
+<p>Сървъра не можа да разпознае метода на заявката <strong><!--#echo var="REQUEST_METHOD" --></strong>
+и не е способен да го поддържа за който и да е ресурс.</p>
+</div>
+
+<!--#include virtual="foot"
+--></body>
+
+</html>

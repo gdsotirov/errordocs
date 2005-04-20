@@ -1,0 +1,18 @@
+<!--#set var="title" value="Conflict"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="header"
+-->
+<body>
+
+<!--#include virtual="head"
+--><div id="body">
+<h1><!--#echo var="title" --></h1>
+<p>Coflict with the current state of the resource.</p>
+<p>The request could not be completed due to a conflict with the current state
+of the resource.</p>
+</div>
+
+<!--#include virtual="foot"
+--></body>
+
+</html>

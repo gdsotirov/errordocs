@@ -1,0 +1,18 @@
+<!--#set var="title" value="Конфликт"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="header"
+-->
+<body>
+
+<!--#include virtual="head"
+--><div id="body">
+<h1><!--#echo var="title" --></h1>
+<p>Конфликт с текущото състояние на ресурса.</p>
+<p>Заявката не може да бъде завършена поради конфликт с текущото състояние
+на ресурса.</p>
+</div>
+
+<!--#include virtual="foot"
+--></body>
+
+</html>

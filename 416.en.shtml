@@ -1,0 +1,19 @@
+<!--#set var="title" value="Requested Range Not Satisfiable"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="header"
+-->
+<body>
+
+<!--#include virtual="head"
+--><div id="body">
+<h1><!--#echo var="title" --></h1>
+<p>The server received a request which specified a range header, but the byte
+range specified can not be satisfied, because the resource being accessed does
+not cover this byte range. This is likely to occur when you requesting partial
+content.</p>
+</div>
+
+<!--#include virtual="foot"
+--></body>
+
+</html>

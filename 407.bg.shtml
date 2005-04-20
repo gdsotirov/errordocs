@@ -1,0 +1,18 @@
+<!--#set var="title" value="Необходимо е упълномощяване от прокси сървър"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="header"
+-->
+<body>
+
+<!--#include virtual="head"
+--><div id="body">
+<h1><!--#echo var="title" --></h1>
+<p>Не сте упълномощен от прокси сървъра</p>
+<p>Моля, повторете заявката и бъдете внимателни когато въвеждате
+потребителското име и паролата.</p>
+</div>
+
+<!--#include virtual="foot"
+--></body>
+
+</html>

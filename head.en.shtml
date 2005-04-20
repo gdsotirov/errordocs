@@ -1,0 +1,21 @@
+<!--#config timefmt="%F %T %Z"
+--><?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Cache-Control" content="<!--#echo var="cache_control" -->" />
+<!--#if expr="${cache_control} = 'no-cache'" --><meta http-equiv="Pragma" content="no-cache" /><!--#endif -->
+<title>[<!--#echo var="REDIRECT_STATUS"-->] <!--#echo var="title"--></title>
+<meta name="Author" content="Georgi D. Sotirov <gdsotirov@dir.bg" />
+<meta name="Copyright" content="Copyright &copy; 2005 Georgi D. Sotirov" />
+<meta name="Description" content="HTTP Custom Internationalized Status Messages" />
+<meta name="Keywords" content="http, status messages, internationalization" />
+<meta name="Generator" content="<!--#echo var="SERVER_SOFTWARE"-->" />
+<meta name="Generated" content="<!--#echo var="DATE_LOCAL"-->" />
+<meta name="robots" content="NOINDEX, FOLLOW, NOARCHIVE" />
+<link href="/errordocs/default.css" media="screen, print, projection" rel="Stylesheet" title="Default" />
+<link href="/style/speech.css" media="aural, speech" rel="Stylesheet" title="Aural (Speech)" />
+</head>

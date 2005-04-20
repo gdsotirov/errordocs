@@ -1,0 +1,17 @@
+<!--#set var="title" value="Expectation Failed"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="header"
+-->
+<body>
+
+<!--#include virtual="head"
+--><div id="body">
+<h1><!--#echo var="title" --></h1>
+<p>The expectation given in an Expect request-header field could not be met
+by this server.</p>
+</div>
+
+<!--#include virtual="foot"
+--></body>
+
+</html>

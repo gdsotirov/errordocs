@@ -1,0 +1,39 @@
+<!--#set var="title" value="Not found"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
+--><!--#set var="MailSubject" value="What is the status of '$REQUEST_URI' resource on '$SERVER_NAME:$SERVER_PORT' host?"
+--><!--#include virtual="header"
+-->
+<body>
+
+<!--#include virtual="head"
+--><div id="body">
+<h1><!--#echo var="title" --></h1>
+<p>The resource you have requested <strong><!--#echo var="REQUEST_URI" --></strong>
+was not found on this server.</p>
+<p>The server has not found anything matching the request
+<abbr title="Uniform Resource Identifier">URI</abbr>. This may or may not
+be temporary condition. Possibilities include:</p>
+<ul>
+<li>the <abbr title="Uniform Resource Identifier">URI</abbr> is mistyped;</li>
+<li>the resource does not exist on the server;</li>
+<li>the resource is moved whithout a redirection specified;</li>
+<li>the resource has gone whithout an indication.</li>
+</ul>
+<p>You can:</p>
+<ul>
+<li>check for typing errors in the <abbr title="Uniform Resource Identifier">URI</abbr> and try again;</li>
+<li>try to load the resource later;</li>
+<li>contact the <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject" -->">server's administrator</a> to find out the status of this resource if you have loaded
+this resource in the past and you can not load it now.</li>
+</ul>
+<!--#if expr="$HTTP_REFERER != ''" --><p>Please, inform the owner
+of <a href="<!--#echo var="HTTP_REFERER" -->">the referring page</a> about
+the status of this resource.</p><!--#endif -->
+</div>
+
+<!--#include virtual="search"
+--><!--#include virtual="foot"
+--></body>
+
+</html>

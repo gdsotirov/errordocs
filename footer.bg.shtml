@@ -1,0 +1,33 @@
+<!--#set var="Apache_Banner" value="/img/apache_pb_banner" 
+--><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
+--><!--#set var="MailSubject" value="Обратна връзка за съобщение за грешка [$REDIRECT_STATUS] $title"
+--><!--#set var="MailBody" value="Здравейте!<br /><br />Получих тази грешка <strong>[$REDIRECT_STATUS] $title </strong> опитвайки се да заредя този ресурс <strong>$REQUEST_URI</strong> на администрирания от вас сървър <i>$SERVER_NAME:$SERVER_PORT</i> на $DATE_LOCAL."
+--><div id="footer">
+<p class="align_left">Ако установите грешка, която изглежда като неправилна
+конфигурация, моля уведомете <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject" -->&body=<!--#echo var="MailBody" -->">администратора на сървъра</a>.</p>
+<hr />
+<p><a href="http://www.apache.org"><img alt="Powered by <!--#echo var="SERVER_SOFTWARE" -->" src="<!--#echo var="Apache_Banner" -->" title="Powered by <!--#echo var="SERVER_SOFTWARE"-->" /></a><br />
+<i><!--#echo var="SERVER_SOFTWARE" --> Сървър обслужващ <!--#echo var="SERVER_NAME" --> Порт <!--#echo var="SERVER_PORT" --></i></p>
+</div>
+
+<div id="conformance">
+<p>
+<!-- Valid XHTML 1.0 -->
+<a href="http://validator.w3.org/check?uri=referer" hreflang="en">
+<img alt="[Икона Валиден XHTML 1.0]" height="31" src="/img/valid-xhtml" title="Валиден XHTML 1.0!" width="88" /></a>&nbsp;
+<!-- Valid CSS -->
+<a href="http://jigsaw.w3.org/css-validator" hreflang="en">
+<img alt="[Икона Валиден CSS]" height="31" src="/img/valid-css" title="Валиден CSS!" width="88" /></a>&nbsp;
+<!-- WAI WCAG Conformance -->
+<a href="http://www.w3.org/WAI/WCAG1AA-Conformance" hreflang="en">
+<img alt="[Икона за съответствие с ниво двойно А, W3C-WAI Web Content Accessibility Guidelines 1.0]"
+height="31" src="/img/wai-wcag-1.0-2a" title="Обяснение на съотвестстие със ниво двойно А" width="88" /></a>&nbsp;
+<!-- UTF-8 Encoded -->
+<a href="http://www.unicode.org" hreflang="en">
+<img alt="[Икона Кодирано в UTF-8]" height="31" src="/img/unicode" title="Кодирано в UTF-8!" width="88" /></a>
+</p>
+</div>
+
+<div id="generated">
+<p>Страницата е създадена <!--#echo var="DATE_LOCAL"--></p>
+</div>

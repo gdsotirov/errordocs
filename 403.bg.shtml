@@ -1,0 +1,18 @@
+<!--#set var="title" value="Забранено"
+--><!--#set var="cache-control" value="no-cache"
+--><!--#include virtual="header"
+-->
+<body>
+
+<!--#include virtual="head"
+--><div id="body">
+<h1><!--#echo var="title" --></h1>
+<p>Нямате права за достъп върху заявеното съдържание.</p>
+<p>Сървъра разбра заявката Ви, но не можа да Ви обслужи, защото нямате
+права за достъп върху заявеното съдържание.</p>
+</div>
+
+<!--#include virtual="foot"
+--></body>
+
+</html>

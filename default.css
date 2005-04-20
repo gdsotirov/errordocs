@@ -1,0 +1,38 @@
+/* Error pages styles
+ * Written by Georgi D. Sotirov
+ *
+ */
+
+@media screen, print, projection {
+  body {
+    background-color: #fff;
+  }
+
+  img {
+    border: none;
+  }
+
+  div#conformance, div#footer, div#generated {
+    text-align: center;
+  }
+
+  div#generated {
+    font-size: xx-small;
+  }
+
+  .align_left {
+    text-align: left;
+  }
+  
+  .align_center {
+    text-align: center;
+  }
+  
+  .align_right {
+    text-align: right;
+  }
+  
+  .align_justify {
+    text-align: justify;
+  }
+}

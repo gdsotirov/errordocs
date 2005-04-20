@@ -1,0 +1,18 @@
+<!--#set var="title" value="Unsupported Media Type"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="header"
+-->
+<body>
+
+<!--#include virtual="head"
+--><div id="body">
+<h1><!--#echo var="title" --></h1>
+<p>The server is refusing to service the request because the entity of the
+request is in a format not supported by the requested resource for the
+requested method <strong><!--#echo var="REQUEST_METHOD" --></strong>.</p>
+</div>
+
+<!--#include virtual="foot"
+--></body>
+
+</html>

@@ -1,0 +1,22 @@
+<!--#set var="title" value="Gone"
+--><!--#set var="cache_control" value="no-store"
+--><!--#include virtual="header"
+-->
+<body>
+
+<!--#include virtual="head"
+--><div id="body">
+<h1><!--#echo var="title" --></h1>
+<p>The resource you have requested is no longer available on this server.</p>
+<p>The resource may be moved whithout a redirection specified or it may be
+removed permanently. Please, remove your bookmarks on this resource.</p>
+<!--#if expr="$HTTP_REFERER != ''" --><p>Please, inform the owner
+of <a href="<!--#echo var="HTTP_REFERER" -->">the referring page</a> to remove
+the link to this resource.</p><!--#endif -->
+</div>
+
+<!--#include virtual="search"
+--><!--#include virtual="foot"
+--></body>
+
+</html>
