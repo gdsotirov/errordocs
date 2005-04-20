@@ -14,7 +14,8 @@ to the accept headers sent in the request.</p>
 in some different file formats. What will be served to the client is decision
 of the server and depends on the send with the request by the client accept
 headers. If you see this message than the requested resource is not available
-in acceptable by you natural language(s).</p>
+in acceptable by you natural language(s). Please, check language settings of
+your client.</p>
 </div>
 
 <!--#include virtual="foot"

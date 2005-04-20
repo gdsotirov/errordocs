@@ -31,3 +31,4 @@ height="31" src="/img/wai-wcag-1.0-2a" title="Explanation of Level Double-A Conf
 <div id="generated">
 <p>Page generated <!--#echo var="DATE_LOCAL"--></p>
 </div>
+

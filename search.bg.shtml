@@ -3,8 +3,8 @@
 <!-- Google Search -->
 <div id="GoogleLogo">
 <a href="http://www.google.com/search" hreflang="en">
-<img alt="[Лого на Google Търсене]" height="45" src="img/logo_google-safe.png"
-width="115" title="Google Търсене" /></a>
+<img alt="[Лого на Google Търсене]" height="53" src="/img/google_logo"
+width="128" title="Google Търсене" /></a>
 </div>
 
 <form action="http://www.google.com/custom" id="GoogleSearch" method="get">
@@ -17,7 +17,7 @@ width="115" title="Google Търсене" /></a>
 <input name="sa" type="submit" value="Google Търсене" /><br />
 <label for="search_site"><input checked="checked" id="search_site"
 name="sitesearch" type="radio" value="<!--#echo var="SERVER_NAME" -->" />
-Търсене в <i><!--#echo var="SERVER_NAME" --></i></label>
+Търсене в <i><!--#echo var="SERVER_NAME" --></i></label><br />
 <label for="search_www"><input id="search_www" name="sitesearch" type="radio"
 value="" />Търсене в Мрежата</label></p>
 </form>

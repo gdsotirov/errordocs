@@ -1,11 +1,14 @@
 /* Error pages styles
  * Written by Georgi D. Sotirov
  *
+ * Media: screen, print, projection
+ * $Id: default.css,v 1.2 2005/04/20 18:28:16 gsotirov Exp $
  */
 
 @media screen, print, projection {
   body {
-    background-color: #fff;
+    background: #fff url(/img/back) repeat-x;
+    font-family: Helvetica, Arial, sans-serif;
   }
 
   img {
@@ -13,13 +16,20 @@
   }
 
   div#conformance, div#footer, div#generated {
+    clear: left;
     text-align: center;
   }
 
   div#generated {
+    color: #ccc;
     font-size: xx-small;
   }
 
+  div#GoogleLogo {
+    float: left;
+    margin: 0 1em;
+  }
+  
   .align_left {
     text-align: left;
   }
@@ -36,3 +46,4 @@
     text-align: justify;
   }
 }
+

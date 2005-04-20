@@ -1,7 +1,7 @@
 <!--#set var="title" value="Unauthorized"
 --><!--#set var="cache_control" value="no-cache"
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
---><!--#set var="MailSubject" value="Please check my permissions for resource '$REQUEST_URI' found on '$SERVER_NAME:$SERVER_PORT' server"
+--><!--#set var="MailSubject" value="Please, check my permissions for resource '$REQUEST_URI' found on '$SERVER_NAME:$SERVER_PORT' server"
 --><!--#include virtual="header"
 -->
 <body>
@@ -12,7 +12,7 @@
 <p>You are not authorized for the requested content.</p>
 <p>Please, repeat the request and be carefull when you enter the username
 and the password. If you think your username and password are correct please,
-contact <a href="mailto:<!--#echo var="MailTo" -->?<!--#echo var="Subject" -->">server's administrator</a> to check your permissions. <strong>DO NOT tell
+contact <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject" -->">server's administrator</a> to check your permissions. <strong>DO NOT tell
 anyone your password!</strong></p>
 </div>
 

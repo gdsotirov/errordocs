@@ -1,7 +1,7 @@
 <!--#set var="Apache_Banner" value="/img/apache_pb_banner" 
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
 --><!--#set var="MailSubject" value="Обратна връзка за съобщение за грешка [$REDIRECT_STATUS] $title"
---><!--#set var="MailBody" value="Здравейте!<br /><br />Получих тази грешка <strong>[$REDIRECT_STATUS] $title </strong> опитвайки се да заредя този ресурс <strong>$REQUEST_URI</strong> на администрирания от вас сървър <i>$SERVER_NAME:$SERVER_PORT</i> на $DATE_LOCAL."
+--><!--#set var="MailBody" value="Здравейте!<br /><br />Получих грешка <strong>[$REDIRECT_STATUS] $title </strong> опитвайки се да заредя този ресурс <strong>$REQUEST_URI</strong> на администрирания от вас сървър <i>$SERVER_NAME:$SERVER_PORT</i> на $DATE_LOCAL."
 --><div id="footer">
 <p class="align_left">Ако установите грешка, която изглежда като неправилна
 конфигурация, моля уведомете <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject" -->&body=<!--#echo var="MailBody" -->">администратора на сървъра</a>.</p>
@@ -31,3 +31,4 @@ height="31" src="/img/wai-wcag-1.0-2a" title="Обяснение на съотв
 <div id="generated">
 <p>Страницата е създадена <!--#echo var="DATE_LOCAL"--></p>
 </div>
+

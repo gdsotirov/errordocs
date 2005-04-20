@@ -9,8 +9,8 @@
 <h1><!--#echo var="title" --></h1>
 <p>The server received a request which specified a range header, but the byte
 range specified can not be satisfied, because the resource being accessed does
-not cover this byte range. This is likely to occur when you requesting partial
-content.</p>
+not cover this byte range. This is likely to occur when you client have
+requested partial content.</p>
 </div>
 
 <!--#include virtual="foot"

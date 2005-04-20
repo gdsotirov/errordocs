@@ -8,8 +8,6 @@
 --><div id="body">
 <h1><!--#echo var="title" --></h1>
 <p>You do not have access permissions for the requested content.</p>
-<p>The server understand you request, but can not serve it because you do
-not have access permissions on the content.</p>
 </div>
 
 <!--#include virtual="foot"
