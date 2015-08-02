@@ -2,16 +2,17 @@
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
 --><!--#set var="MailSubject" value="Feedback about error message [$REDIRECT_STATUS] $title"
 --><!--#set var="MailBody" value="Hi!<br /><br />I've got error <strong>[$REDIRECT_STATUS] $title </strong> when I was trying to load this URI <strong>$REQUEST_URI</strong> on administrated by you server <i>$SERVER_NAME:$SERVER_PORT</i> at $DATE_LOCAL."
---><div id="footer">
+-->
+<div id="footer">
 <p class="align_left">If you indicated an error looks like misconfiguration,
-please inform <a href="mailto:<!--#echo var="MailTo"-->?subject=<!--#echo var="MailSubject"-->&body=<!--#echo var="MailBody"-->">the administrator of the server</a>.</p>
+please inform <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject"-->&body=<!--#echo var="MailBody"-->">the administrator of the server</a>.</p>
 <hr />
-<p><a href="http://www.apache.org"><img alt="Powered by <!--#echo var="SERVER_SOFTWARE"-->" src="<!--#echo var="Apache_Banner" -->" title="Powered by <!--#echo var="SERVER_SOFTWARE"-->" /></a><br />
+<p><a href="http://www.apache.org"><img alt="Powered by <!--#echo var="SERVER_SOFTWARE" -->" src="<!--#echo var="Apache_Banner" -->" title="Powered by <!--#echo var="SERVER_SOFTWARE"-->" /></a><br />
 <i><!--#echo var="SERVER_SOFTWARE" --> Server at <!--#echo var="SERVER_NAME" --> Port <!--#echo var="SERVER_PORT" --></i></p>
 </div>
 
 <div id="conformance">
-<p class="align-center">
+<p>
 <!-- Valid XHTML 1.0 -->
 <a href="http://validator.w3.org/check?uri=referer" hreflang="en">
 <img alt="[Valid XHTML 1.0 icon]" height="31" src="/img/valid-xhtml" title="Valid XHTML 1.0!" width="88" /></a>&nbsp;
@@ -31,4 +32,3 @@ height="31" src="/img/wai-wcag-1.0-2a" title="Explanation of Level Double-A Conf
 <div id="generated">
 <p>Page generated <!--#echo var="DATE_LOCAL"--></p>
 </div>
-

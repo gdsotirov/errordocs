@@ -2,7 +2,8 @@
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
 --><!--#set var="MailSubject" value="Обратна връзка за съобщение за грешка [$REDIRECT_STATUS] $title"
 --><!--#set var="MailBody" value="Здравейте!<br /><br />Получих грешка <strong>[$REDIRECT_STATUS] $title </strong> опитвайки се да заредя този ресурс <strong>$REQUEST_URI</strong> на администрирания от вас сървър <i>$SERVER_NAME:$SERVER_PORT</i> на $DATE_LOCAL."
---><div id="footer">
+-->
+<div id="footer">
 <p class="align_left">Ако установите грешка, която изглежда като неправилна
 конфигурация, моля уведомете <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject" -->&body=<!--#echo var="MailBody" -->">администратора на сървъра</a>.</p>
 <hr />
@@ -31,4 +32,3 @@ height="31" src="/img/wai-wcag-1.0-2a" title="Обяснение на съотв
 <div id="generated">
 <p>Страницата е създадена <!--#echo var="DATE_LOCAL"--></p>
 </div>
-
