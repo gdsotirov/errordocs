@@ -3,12 +3,12 @@ HTTP Custom Internationalized Status Messages
 About
 ------------------------------------------------------------------------------
 Apache HTTP server allows custom error messages through the ErrorDocument
-directive (see http://httpd.apache.org/docs/2.2/mod/core.html#errordocument ),
+directive (see http://httpd.apache.org/docs/2.4/mod/core.html#errordocument ),
 which also could be internationalized using content negotiation (see
-http://httpd.apache.org/docs/2.2/content-negotiation.html ). For such pages
+http://httpd.apache.org/docs/2.4/content-negotiation.html ). For such pages
 no advanced CGI is necessary, so using Server Side Includes (see
-http://httpd.apache.org/docs/2.2/howto/ssi.html ) provided by mod_include
-(see http://httpd.apache.org/docs/2.2/mod/mod_include.html ) one could
+http://httpd.apache.org/docs/2.4/howto/ssi.html ) provided by mod_include
+(see http://httpd.apache.org/docs/2.4/mod/mod_include.html ) one could
 achieve "homogenous and consistent style and layout" with minimum maintenance
 work. This project is based on the ideas and examples from the page Using XSSI
 and ErrorDocument to configure customized international server error responses
