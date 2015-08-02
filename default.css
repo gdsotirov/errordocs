@@ -2,34 +2,38 @@
  * Written by Georgi D. Sotirov
  *
  * Media: screen, print, projection
- * $Id: default.css,v 1.2 2005/04/20 18:28:16 gsotirov Exp $
+ * $Id: default.css,v 1.3 2015/08/02 17:13:08 gsotirov Exp $
  */
 
-@media screen, print, projection {
+@media screen, print {
   body {
     background: #fff url(/img/back) repeat-x;
     font-family: Helvetica, Arial, sans-serif;
-  }
-
-  img {
-    border: none;
-  }
-
-  div#conformance, div#footer, div#generated {
-    clear: left;
-    text-align: center;
-  }
-
-  div#generated {
-    color: #ccc;
-    font-size: xx-small;
   }
 
   div#GoogleLogo {
     float: left;
     margin: 0 1em;
   }
-  
+
+  footer {
+    clear: left;
+    text-align: center;
+  }
+
+  img {
+    border: none;
+  }
+
+  section h2 {
+    font-weight: normal;
+  }
+
+  .generated {
+    color: #ccc;
+    font-size: xx-small;
+  }
+
   .align_left {
     text-align: left;
   }
