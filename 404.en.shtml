@@ -5,9 +5,8 @@
 --><!--#include virtual="header"
 -->
 <body>
-
-<!--#include virtual="head"
---><div id="body">
+<!--#include virtual="head" -->
+<div id="body">
 <h1><!--#echo var="title" --></h1>
 <p>The resource you have requested <strong><!--#echo var="REQUEST_URI" --></strong>
 was not found on this server.</p>
@@ -27,7 +26,7 @@ be temporary condition. Possibilities include:</p>
 <li>contact the <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject" -->">server's administrator</a> to find out the status of this resource if you have loaded
 this resource in the past and you can not load it now.</li>
 </ul>
-<!--#if expr="$HTTP_REFERER != ''" --><p>Please, inform the owner
+<!--#if expr="v('HTTP_REFERER') != ''" --><p>Please, inform the owner
 of <a href="<!--#echo var="HTTP_REFERER" -->">the referring page</a> about
 the status of this resource.</p><!--#endif -->
 </div>
