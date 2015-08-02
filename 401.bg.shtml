@@ -2,21 +2,16 @@
 --><!--#set var="cache_control" value="no-cache"
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
 --><!--#set var="MailSubject" value="Моля, проверете моите права за ресурса '$REQUEST_URI' намиращ се на сървъра '$SERVER_NAME:$SERVER_PORT'"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>Не сте упълномощен за заявеното съдържание.</p>
+--><section>
+<h2>Не сте упълномощен за заявеното съдържание.</h2>
 <p>Моля, повторете заявката, като внимавате за правилното въвеждане на
 потребителското име и паролата. Ако смятате, че потребителското Ви име и
 паролата са правилни моля, свържете се с <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject" -->">администратора на сървъра</a>, за да провери вашите права.
 <strong>НЕ казвайте на никого вашата парола!</strong></p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

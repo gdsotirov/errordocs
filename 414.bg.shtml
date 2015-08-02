@@ -1,14 +1,10 @@
 <!--#set var="title" value="URL на заявка е твърде дълъг"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p><abbr lang="en" title="Uniform Resource Identifier">URI</abbr> на заявка е по-дълъг
-от предела на сървъра.</p>
+--><section>
+<h2><abbr lang="en" title="Uniform Resource Identifier">URI</abbr> на заявка е по-дълъг
+от предела на сървъра</h2>
 <p>Сървъра отказа да обслужи заявката, защото заявения
 <abbr lang="en" title="Uniform Resource Identifier">URI</abbr> е по-дълъг от този който
 има желание или възможност да тълкува. Обичайно е това да се случи когато:</p>
@@ -23,9 +19,8 @@
 <li>се опитате да настроите правилно вашия клиент или да го осъвремените;</li>
 <li>си вървите!</li>
 </ul>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

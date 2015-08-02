@@ -1,22 +1,17 @@
 <!--#set var="title" value="Изгубен"
 --><!--#set var="cache_control" value="no-store"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>Ресурса, който заявихте повече не е наличен на този сървър.</p>
+--><section>
+<h2>Ресурса, който заявихте повече не е наличен на този сървър</h2>
 <p>Ресурсът може да е преместен без да е указано пренасочване или може да
 е премахнат безвъзвратно. Моля, премахнете отметките си върху ресурса.</p>
 <!--#if expr="$HTTP_REFERER != ''" --><p>Моля, информирайте собственика на
 <a href="<!--#echo var="HTTP_REFERER" -->">препратилата Ви страница</a> да
 премахне връзката към този ресурс.</p><!--#endif -->
-</div>
+</section>
 
 <!--#include virtual="search"
+--><!--#include virtual="footer"
 --><!--#include virtual="foot"
---></body>
-
-</html>
+-->

@@ -2,23 +2,18 @@
 --><!--#set var="cache_control" value="no-cache"
 --><!--#set var="MailTo" value="$SERVER_ADMIN"
 --><!--#set var="mailSubject" value="ISE when this request '$$REQUEST_URI' was processed by '$SERVER_NAME:$SERVER_PORT' at $LOCAL_DATE"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>The server encountered an unexpected condition which prevented it from
-fulfilling the request.</p>
+--><section>
+<h2>The server encountered an unexpected condition which prevented it from
+fulfilling the request</h2>
 <p>This can be caused by a script or a programm that the server executed in
 order to fulfill the request and it returned an error.</p>
 <p>Please, inform the <a href="mailto:<!--#echo var="MailTo"-->?subject=<!--#echo var="MailSubject" -->">the administrator of the server</a>
 about this condition. You may include additional information about the
 circumstances lead to this error.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

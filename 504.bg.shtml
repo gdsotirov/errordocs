@@ -1,13 +1,9 @@
 <!--#set var="title" value="Изтекло време за отговор от шлюза"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>Липса на своевременен отговор от по-горен сървър</p>
+--><section>
+<h2>Липса на своевременен отговор от по-горен сървър</h2>
 <p>Сървъра, работейки като шлюз или прокси, не получи навременен отговор
 от по-горен сървър указан с заявения <abbr lang="en" title="Uniform Resource Identifier">URI</abbr>
 (напр. <abbr lang="en" title="Hyper Text Transfer Protocol">HTTP</abbr>,
@@ -15,9 +11,8 @@
        <abbr lang="en" title="Lightweight Directory Access Protocol">LDAP</abbr>)
 или някой друг помощен сървър (напр. <abbr lang="en" title="Domain Name Service">DNS</abbr>),
 който трябваше да достъпи в опита си да завърши заявката.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

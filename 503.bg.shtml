@@ -1,22 +1,17 @@
 <!--#set var="title" value="Услугата недостъпна"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>Сървъра в момента не може да обработи заявката</p>
+--><section>
+<h2>Сървъра в момента не може да обработи заявката</h2>
 <p>Това състояние може да бъде причинено от:</p>
 <ul>
 <li>временно пренатоварване;</li>
 <li>техническа и/или програмна профилактика.</li>
 </ul>
 <p>Моля, повторете вашата заявка <!--#if expr="Retry-after != ''" -->след <!--#echo var="Retry-after" --><!--#else -->по-късно<!--#endif -->.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

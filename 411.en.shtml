@@ -1,17 +1,12 @@
 <!--#set var="title" value="Length Required"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
+--><section>
 <p>The server refuses to accept your request whithout a defined content
 length. Please, provide information about the length.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

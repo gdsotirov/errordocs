@@ -1,18 +1,13 @@
 <!--#set var="title" value="Request Timeout"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>The server did not receive request in reasonable time interval.</p>
+--><section>
+<h2>The server did not receive request in reasonable time interval</h2>
 <p>Your agent did not produce a request within the time that the server was
 prepared to wait. Please, repeat the request.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

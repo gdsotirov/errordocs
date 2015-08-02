@@ -1,15 +1,12 @@
 <!--#set var="title" value="Not found"
 --><!--#set var="cache_control" value="no-cache"
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
---><!--#set var="MailSubject" value="What is the status of '$REQUEST_URI' resource on '$SERVER_NAME:$SERVER_PORT' host?"
+--><!--#set var="MailSubject" value="What is the status of '$REQUEST_URI' resource on host '$SERVER_NAME:$SERVER_PORT'?"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-<!--#include virtual="head" -->
-<div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>The resource you have requested <strong><!--#echo var="REQUEST_URI" --></strong>
-was not found on this server.</p>
+--><section>
+<h2>The resource you have requested <strong><!--#echo var="REQUEST_URI" --></strong>
+was not found on this server</h2>
 <p>The server has not found anything matching the request
 <abbr title="Uniform Resource Identifier">URI</abbr>. This may or may not
 be temporary condition. Possibilities include:</p>
@@ -23,16 +20,16 @@ be temporary condition. Possibilities include:</p>
 <ul>
 <li>check for typing errors in the <abbr title="Uniform Resource Identifier">URI</abbr> and try again;</li>
 <li>try to load the resource later;</li>
-<li>contact the <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject" -->">server's administrator</a> to find out the status of this resource if you have loaded
-this resource in the past and you can not load it now.</li>
+<li>contact the <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject"
+-->">server's administrator</a> to find out the status of this resource if you
+have loaded this resource in the past and you can not load it now.</li>
 </ul>
 <!--#if expr="v('HTTP_REFERER') != ''" --><p>Please, inform the owner
 of <a href="<!--#echo var="HTTP_REFERER" -->">the referring page</a> about
 the status of this resource.</p><!--#endif -->
-</div>
+</section>
 
 <!--#include virtual="search"
+--><!--#include virtual="footer"
 --><!--#include virtual="foot"
---></body>
-
-</html>
+-->

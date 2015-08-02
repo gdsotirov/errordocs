@@ -1,19 +1,14 @@
 <!--#set var="title" value="Not Implemented"
 --><!--#set var="cache_control" value="no-store"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>The server does not support the functionality required to fulfill the
-request.</p>
+--><section>
+<h2>The server does not support the functionality required to fulfill the
+request</h2>
 <p>The server was unable to recognize the request method <strong><!--#echo var="REQUEST_METHOD" --></strong>
 and is not capable of supporting it for any resource.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

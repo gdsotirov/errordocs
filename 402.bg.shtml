@@ -1,16 +1,11 @@
 <!--#set var="title" value="Изисква се заплащане"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
+--><section>
+<h2>Този код е запазаен за бъдещо използване.</h2>
+</section>
+
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
 -->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>Този код е запазаен за бъдещо използване.</p>
-</div>
-
-<!--#include virtual="foot"
---></body>
-
-</html>

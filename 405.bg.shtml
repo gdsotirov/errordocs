@@ -1,17 +1,13 @@
 <!--#set var="title" value="Метода не е позволен"
 --><!--#set var="cache_control" value="no-store"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
+--><section>
 <p>Методът <strong><!--#echo var="REQUEST_METHOD" --></strong> указан в
-заявката не е позволен за ресурса указан от заявения <abbr lang="en" title="Uniform Resource Identifier">URI</abbr>.</p>
-</div>
+заявката не е позволен за ресурса указан от заявения <abbr lang="en"
+title="Uniform Resource Identifier">URI</abbr>.</p>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

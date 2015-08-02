@@ -1,18 +1,13 @@
 <!--#set var="title" value="Precondition Failed"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>Precondition in the headers evaluated to false.</p>
+--><section>
+<h2>Precondition in the headers evaluated to false</h2>
 <p>The precondition given in one or more of the request headers evaluated to
 false when it was tested on the server.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

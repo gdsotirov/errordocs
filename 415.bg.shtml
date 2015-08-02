@@ -1,18 +1,13 @@
 <!--#set var="title" value="Неподдържан медия тип"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
+--><section>
 <p>Сървъра отказа да изпълни заявката, защото съдържанието на заявката
 е във формат неподдържан от заявения ресурс за заявения метод
 <strong><!--#echo var="REQUEST_METHOD" --></strong>.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

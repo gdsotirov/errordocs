@@ -3,25 +3,17 @@
 --><!--#set var="MailTo" value="$SERVER_ADMIN"
 --><!--#set var="mailSubject" value="ВСГ при тази заявка '$$REQUEST_URI' изпълнена от '$SERVER_NAME:$SERVER_PORT' на $LOCAL_DATE"
 --><!--#include virtual="header"
--->
-
-<body>
-
-<!--#include virtual="head"
--->
-<div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>Сървъра се натъкна на неочаквано състояние, което го възпрепятства да
-изпълни заявката.</p>
+--><!--#include virtual="head"
+--><section>
+<h2>Сървъра се натъкна на неочаквано състояние, което го възпрепятства да
+изпълни заявката</h2>
 <p>Това може да бъде причинено от скрипт или програма, която сървъра е изпълнил
 в отговор на заявката и тя е завършила неуспешно.</p>
 <p>Моля, информирайте <a href="mailto:<!--#echo var="MailTo"-->?subject=<!--#echo var="MailSubject" -->">администратора на сървъра</a>
 за това състояние. Можете да включите допълнителна информация за
 обстоятелствата довели до тази грешка.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
 -->
-</body>
-
-</html>

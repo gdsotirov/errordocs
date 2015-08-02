@@ -1,17 +1,12 @@
 <!--#set var="title" value="Очакването провалено"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
+--><section>
 <p>Очакването зададено в полето от заглавната част Expect не може да
 бъде задоволено от този сървър.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

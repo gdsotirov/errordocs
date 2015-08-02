@@ -1,16 +1,11 @@
 <!--#set var="title" value="Forbidden"
 --><!--#set var="cache-control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
+--><section>
+<h2>You do not have access permissions for the requested content.</h2>
+</section>
+
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
 -->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>You do not have access permissions for the requested content.</p>
-</div>
-
-<!--#include virtual="foot"
---></body>
-
-</html>

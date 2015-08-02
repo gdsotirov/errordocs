@@ -1,18 +1,13 @@
 <!--#set var="title" value="Провалено предварително условие"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>Предварителното условие в заглавните части беше оценено като неверно.</p>
+--><section>
+<h2>Предварителното условие в заглавните части беше оценено като неверно</h2>
 <p>Зададеното е една или повече заглавни части предварително условие, беше
 оценено като неверно, когато беше изпитано на сървъра.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

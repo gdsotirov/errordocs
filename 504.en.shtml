@@ -1,13 +1,9 @@
 <!--#set var="title" value="Gateway Timeout"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>No timely response from upstrem server</p>
+--><section>
+<h2>No timely response from upstrem server</h2>
 <p>The server, while acting as a gateway or proxy, did not receive a timely
 response from the upstream server specified by the <abbr title="Uniform Resource Identifier">URI</abbr>
 (e.g. <abbr title="Hyper Text Transfer Protocol">HTTP</abbr>,
@@ -15,9 +11,8 @@ response from the upstream server specified by the <abbr title="Uniform Resource
       <abbr title="Lightweight Directory Access Protocol">LDAP</abbr>)
 or some other auxiliary server (e.g. <abbr title="Domain Name Service">DNS</abbr>)
 it needed to access in attempting to complete the request.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

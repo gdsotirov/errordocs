@@ -1,12 +1,8 @@
 <!--#set var="title" value="Bad Request"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
+--><section>
 <p>Your agent sent a request that this server could not understand:</p>
 <pre><strong><!--#echo var="REQUEST_URI" --></strong></pre>
 <p>The request could not be understood by the server due to malformed syntax.
@@ -15,9 +11,8 @@ Please, do not repeat the request without modifications.</p>
 of <a href="<!--#echo var="HTTP_REFERER"-->">the referring page</a> about
 the malformed link.<!--#else--> Please check your request for typing errors
 and retry.<!--#endif--></p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

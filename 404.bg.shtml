@@ -2,14 +2,11 @@
 --><!--#set var="cache_control" value="no-cache"
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
 --><!--#set var="MailSubject" value="Какво е състоянието на ресурса '$REQUEST_URI' на сървъра '$SERVER_NAME:$SERVER_PORT'?"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-<!--#include virtual="head" -->
-<div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>Ресурса който заявихте <strong><!--#echo var="REQUEST_URI" --></strong>
-не беше намерен на този сървър.</p>
+--><section>
+<h2>Ресурса който заявихте <strong><!--#echo var="REQUEST_URI" --></strong>
+не беше намерен на този сървър</h2>
 <p>Сървъра не намери нищо, което да отговаря на заявения 
 <abbr lang="en" title="Uniform Resource Identifier">URI</abbr>. Това може, но може и
 да не е временно състояние. Възможностите включват:</p>
@@ -23,16 +20,16 @@
 <ul>
 <li>проверите за правописни грешки в <abbr lang="en" title="Uniform Resource Identifier">URI</abbr> и да опитате отново;</li>
 <li>опитате да заредите ресурса по-късно;</li>
-<li>се свържете с <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject" -->">администратора на сървъра</a>, за да установите състоянието на ресурса, ако
-сте го зареждали преди и не можете да го заредите сега.</li>
+<li>се свържете с <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject"
+-->">администратора на сървъра</a>, за да установите състоянието на ресурса,
+ако сте го зареждали преди и не можете да го заредите сега.</li>
 </ul>
 <!--#if expr="v('HTTP_REFERER') != ''" --><p>Моля, уведомете собственика на
 <a href="<!--#echo var="HTTP_REFERER" -->">препратилата Ви страница</a> за
 състоянието на ресурса.</p><!--#endif -->
-</div>
+</section>
 
 <!--#include virtual="search"
+--><!--#include virtual="footer"
 --><!--#include virtual="foot"
---></body>
-
-</html>
+-->

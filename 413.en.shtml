@@ -1,22 +1,17 @@
 <!--#set var="title" value="Request Entity Too Large"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>Request entity is larger than the server limit.</p>
+--><section>
+<h2>Request entity is larger than the server limit</h2>
 <p>The server is refusing to process the request, because the request entity
 is larger than the server is willing or able to process.</p>
 <!--#if expr="Retry-after != ''"
 --><p>This condition can be caused by hardware and/or softwre maintenance.
 Please, retry you request after <!--#echo var="Retry-after" -->.</p>
 <!--#endif -->
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

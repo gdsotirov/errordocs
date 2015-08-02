@@ -1,18 +1,13 @@
 <!--#set var="title" value="Изтекло време за заявка"
 --><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
 --><!--#include virtual="header"
--->
-<body>
-
-<!--#include virtual="head"
---><div id="body">
-<h1><!--#echo var="title" --></h1>
-<p>Сървъра не получи заявка в разумен интервал от време.</p>
+--><section>
+<h2>Сървъра не получи заявка в разумен интервал от време</h2>
 <p>Вашият агент не произведе заявка в интервала от време, в което сървъра
 беше подготвен да чака. Моля, повторете заявката.</p>
-</div>
+</section>
 
-<!--#include virtual="foot"
---></body>
-
-</html>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->
