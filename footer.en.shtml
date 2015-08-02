@@ -1,16 +1,25 @@
 <!--#set var="Apache_Banner" value="/img/apache_pb_banner" 
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
 --><!--#set var="MailSubject" value="Feedback about error message [$REDIRECT_STATUS] $title"
---><!--#set var="MailBody" value="Hello, I got error [$REDIRECT_STATUS] $title when I was trying to load this URI $REQUEST_URI on administrated by you server $SERVER_NAME:$SERVER_PORT at $DATE_LOCAL."
+--><!--#set var="MailBody" value="Hello, I got error [$REDIRECT_STATUS] $title when I was trying to load URI $REQUEST_URI on the administrated by you server $SERVER_NAME:$SERVER_PORT at $DATE_LOCAL."
 -->
 <footer>
 <p class="align_left">If you indicated an error looks like misconfiguration,
-please inform <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject"-->&amp;body=<!--#echo var="MailBody"-->">the administrator of the server</a>.</p>
+please inform <a href="mailto:<!--#echo encoding="url" var="MailTo"
+-->?subject=<!--#echo encoding="url" var="MailSubject" -->&amp;body=<!--#echo encoding="url" var="MailBody"
+-->">the administrator of the server</a>.</p>
 
 <hr />
 
-<p><a href="http://www.apache.org"><img alt="Powered by <!--#echo var="SERVER_SOFTWARE" -->" src="<!--#echo var="Apache_Banner" -->" title="Powered by <!--#echo var="SERVER_SOFTWARE"-->" /></a><br />
-<i><!--#echo var="SERVER_SOFTWARE" --> Server at <!--#echo var="SERVER_NAME" --> Port <!--#echo var="SERVER_PORT" --></i></p>
+<p>
+  <a href="http://www.apache.org">
+    <img alt="Powered by <!--#echo var="SERVER_SOFTWARE" -->"
+         src="<!--#echo var="Apache_Banner" -->"
+         title="Powered by <!--#echo var="SERVER_SOFTWARE"-->" />
+  </a>
+  <br />
+  <i><!--#echo var="SERVER_SOFTWARE" --> Server at <!--#echo var="SERVER_NAME" --> Port <!--#echo var="SERVER_PORT" --></i>
+</p>
 
 <p>
 <!-- Valid XHTML 1.0 -->

@@ -1,16 +1,17 @@
 <!--#set var="title" value="Вътрешо-сървърна грешка"
 --><!--#set var="cache_control" value="no-cache"
---><!--#set var="MailTo" value="$SERVER_ADMIN"
---><!--#set var="mailSubject" value="ВСГ при тази заявка '$$REQUEST_URI' изпълнена от '$SERVER_NAME:$SERVER_PORT' на $LOCAL_DATE"
---><!--#include virtual="header"
+--><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
+--><!--#set var="mailSubject" value="Грешка 500 при заявка '$$REQUEST_URI' изпълнена от '$SERVER_NAME:$SERVER_PORT' на $LOCAL_DATE"
 --><!--#include virtual="head"
+--><!--#include virtual="header"
 --><section>
 <h2>Сървъра се натъкна на неочаквано състояние, което го възпрепятства да
 изпълни заявката</h2>
 <p>Това може да бъде причинено от скрипт или програма, която сървъра е изпълнил
 в отговор на заявката и тя е завършила неуспешно.</p>
-<p>Моля, информирайте <a href="mailto:<!--#echo var="MailTo"-->?subject=<!--#echo var="MailSubject" -->">администратора на сървъра</a>
-за това състояние. Можете да включите допълнителна информация за
+<p>Моля, информирайте <a href="mailto:<!--#echo encoding="url" var="MailTo"
+-->?subject=<!--#echo encoding="url" var="MailSubject" -->">администратора на
+сървъра</a> за това състояние. Можете да включите допълнителна информация за
 обстоятелствата довели до тази грешка.</p>
 </section>
 

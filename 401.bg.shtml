@@ -1,15 +1,17 @@
 <!--#set var="title" value="Неупълномощен"
 --><!--#set var="cache_control" value="no-cache"
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
---><!--#set var="MailSubject" value="Моля, проверете моите права за ресурса '$REQUEST_URI' намиращ се на сървъра '$SERVER_NAME:$SERVER_PORT'"
+--><!--#set var="MailSubject" value="Моля, проверете позволенията ми за ресурса '$REQUEST_URI' намиращ се на сървъра '$SERVER_NAME:$SERVER_PORT'"
 --><!--#include virtual="head"
 --><!--#include virtual="header"
 --><section>
-<h2>Не сте упълномощен за заявеното съдържание.</h2>
+<h2>Не сте упълномощен за заявеното съдържание</h2>
 <p>Моля, повторете заявката, като внимавате за правилното въвеждане на
 потребителското име и паролата. Ако смятате, че потребителското Ви име и
-паролата са правилни моля, свържете се с <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject" -->">администратора на сървъра</a>, за да провери вашите права.
-<strong>НЕ казвайте на никого вашата парола!</strong></p>
+паролата са правилни моля, свържете се с <a href="mailto:<!--#echo encoding="url" var="MailTo"
+-->?subject=<!--#echo encoding="url" var="MailSubject" -->">администратора на сървъра</a>,
+за да провери вашите права. <strong>НЕ казвайте на никого вашата
+парола!</strong></p>
 </section>
 
 <!--#include virtual="footer"

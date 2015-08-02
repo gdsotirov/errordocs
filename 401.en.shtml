@@ -5,11 +5,13 @@
 --><!--#include virtual="head"
 --><!--#include virtual="header"
 --><section>
-<h2>You are not authorized for the requested content.</h2>
+<h2>You are not authorized for the requested content</h2>
 <p>Please, repeat the request and be carefull when you enter the username
-and the password. If you think your username and password are correct please,
-contact <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject" -->">server's administrator</a> to check your permissions. <strong>DO NOT tell
-anyone your password!</strong></p>
+and the password. If you think your username and password are correct
+please, contact <a href="mailto:<!--#echo encoding="url" var="MailTo"
+-->?subject=<!--#echo encoding="url" var="MailSubject" -->">server's administrator</a> to
+check your permissions. <strong>DO NOT tell anyone your
+password!</strong></p>
 </section>
 
 <!--#include virtual="footer"

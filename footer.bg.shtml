@@ -1,16 +1,25 @@
 <!--#set var="Apache_Banner" value="/img/apache_pb_banner" 
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
 --><!--#set var="MailSubject" value="Обратна връзка за съобщение за грешка [$REDIRECT_STATUS] $title"
---><!--#set var="MailBody" value="Здравейте, Получих грешка [$REDIRECT_STATUS] $title опитвайки се да заредя този ресурс $REQUEST_URI на администрирания от вас сървър $SERVER_NAME:$SERVER_PORT на $DATE_LOCAL."
+--><!--#set var="MailBody" value="Здравейте, Получих грешка [$REDIRECT_STATUS] $title опитвайки се да заредя ресурса $REQUEST_URI на администрирания от вас сървър $SERVER_NAME:$SERVER_PORT на $DATE_LOCAL."
 -->
 <footer>
 <p class="align_left">Ако установите грешка, която изглежда като неправилна
-конфигурация, моля уведомете <a href="mailto:<!--#echo var="MailTo" -->?subject=<!--#echo var="MailSubject" -->&amp;body=<!--#echo var="MailBody" -->">администратора на сървъра</a>.</p>
+конфигурация, моля уведомете <a href="mailto:<!--#echo encoding="url" var="MailTo"
+-->?subject=<!--#echo encoding="url" var="MailSubject" -->&amp;body=<!--#echo encoding="url" var="MailBody"
+-->">администратора на сървъра</a>.</p>
 
 <hr />
 
-<p><a href="http://www.apache.org"><img alt="Powered by <!--#echo var="SERVER_SOFTWARE" -->" src="<!--#echo var="Apache_Banner" -->" title="Powered by <!--#echo var="SERVER_SOFTWARE"-->" /></a><br />
-<i><!--#echo var="SERVER_SOFTWARE" --> Сървър обслужващ <!--#echo var="SERVER_NAME" --> Порт <!--#echo var="SERVER_PORT" --></i></p>
+<p>
+  <a href="http://www.apache.org">
+    <img alt="Powered by <!--#echo var="SERVER_SOFTWARE" -->"
+         src="<!--#echo var="Apache_Banner" -->"
+         title="Powered by <!--#echo var="SERVER_SOFTWARE"-->" />
+  </a>
+  <br />
+  <i><!--#echo var="SERVER_SOFTWARE" --> Сървър обслужващ <!--#echo var="SERVER_NAME" --> Порт <!--#echo var="SERVER_PORT" --></i>
+</p>
 
 <p>
 <!-- Valid XHTML 1.0 -->
