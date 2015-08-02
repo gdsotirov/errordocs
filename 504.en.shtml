@@ -10,7 +10,9 @@
 <p>No timely response from upstrem server</p>
 <p>The server, while acting as a gateway or proxy, did not receive a timely
 response from the upstream server specified by the <abbr title="Uniform Resource Identifier">URI</abbr>
-(e.g. <abbr title="Hyper Text Transfer Protocol">HTTP</abbr>, <abbr title="File Transfer Protocol">FTP</abbr>, <abbr title=" Lightweight Directory Access Protocol">LDAP</abbr>)
+(e.g. <abbr title="Hyper Text Transfer Protocol">HTTP</abbr>,
+      <abbr title="File Transfer Protocol">FTP</abbr>,
+      <abbr title="Lightweight Directory Access Protocol">LDAP</abbr>)
 or some other auxiliary server (e.g. <abbr title="Domain Name Service">DNS</abbr>)
 it needed to access in attempting to complete the request.</p>
 </div>

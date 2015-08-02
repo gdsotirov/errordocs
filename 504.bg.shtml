@@ -9,9 +9,11 @@
 <h1><!--#echo var="title" --></h1>
 <p>Липса на своевременен отговор от по-горен сървър</p>
 <p>Сървъра, работейки като шлюз или прокси, не получи навременен отговор
-от по-горен сървър указан с заявения <abbr title="Единен Ресурсен Идентификатор">ЕРИ</abbr>
-(например <abbr title="Протокол за Предаване на Хипер Текст">ППХТ</abbr>, <abbr title="Протокол за Прехвръляне на Файлове">ППФ</abbr>, <abbr title="Тънък Протокол за Достъп до Директория">ТПДД</abbr>)
-или някой друг помощен сървър (например <abbr title="Услуга за Имена на Области">УИО</abbr>),
+от по-горен сървър указан с заявения <abbr lang="en" title="Uniform Resource Identifier">URI</abbr>
+(напр. <abbr lang="en" title="Hyper Text Transfer Protocol">HTTP</abbr>,
+       <abbr lang="en" title="File Transfer Protocol">FTP</abbr>,
+       <abbr lang="en" title="Lightweight Directory Access Protocol">LDAP</abbr>)
+или някой друг помощен сървър (напр. <abbr lang="en" title="Domain Name Service">DNS</abbr>),
 който трябваше да достъпи в опита си да завърши заявката.</p>
 </div>
 
