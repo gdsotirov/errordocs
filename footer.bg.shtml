@@ -1,4 +1,6 @@
-<!--#set var="Apache_Banner" value="/img/apache_pb_banner" 
+<!--#config sizefmt="bytes"
+--><!--#config timefmt="%d.%m.%Y %T %Z"
+--><!--#set var="Apache_Banner" value="/img/apache_pb_banner" 
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
 --><!--#set var="MailSubject" value="Обратна връзка за съобщение за грешка [$REDIRECT_STATUS] $title"
 --><!--#set var="MailBody" value="Здравейте, Получих грешка [$REDIRECT_STATUS] $title опитвайки се да заредя ресурса $REQUEST_URI на администрирания от вас сървър $SERVER_NAME:$SERVER_PORT на $DATE_LOCAL."

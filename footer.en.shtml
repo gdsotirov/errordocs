@@ -1,4 +1,6 @@
-<!--#set var="Apache_Banner" value="/img/apache_pb_banner" 
+<!--#config sizefmt="bytes"
+--><!--#config timefmt="%a, %d %b %y %T %z"
+--><!--#set var="Apache_Banner" value="/img/apache_pb_banner" 
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
 --><!--#set var="MailSubject" value="Feedback about error message [$REDIRECT_STATUS] $title"
 --><!--#set var="MailBody" value="Hello, I got error [$REDIRECT_STATUS] $title when I was trying to load URI $REQUEST_URI on the administrated by you server $SERVER_NAME:$SERVER_PORT at $DATE_LOCAL."
