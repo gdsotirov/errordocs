@@ -6,7 +6,7 @@
 <h2>The resource you have requested is no longer available on this server.</h2>
 <p>The resource may be moved whithout a redirection specified or it may be
 removed permanently. Please, remove your bookmarks on this resource.</p>
-<!--#if expr="$HTTP_REFERER != ''" --><p>Please, inform the owner
+<!--#if expr="v('HTTP_REFERER') != ''" --><p>Please, inform the owner
 of <a href="<!--#echo var="HTTP_REFERER" -->">the referring page</a> to remove
 the link to this resource.</p><!--#endif -->
 </section>
