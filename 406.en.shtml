@@ -2,7 +2,7 @@
 --><!--#set var="cache_control" value="no-cache"
 --><!--#include virtual="head"
 --><!--#include virtual="header"
---><section>
+-->
 <p>The resource identified by the request is only capable of generating
 response entities which have content characteristics not acceptable according
 to the accept headers sent in the request.</p>
@@ -12,7 +12,6 @@ of the server and depends on the send with the request by the client accept
 headers. If you see this message than the requested resource is not available
 in acceptable by you natural language(s). Please, check language settings of
 your client.</p>
-</section>
 
 <!--#include virtual="footer"
 --><!--#include virtual="foot"

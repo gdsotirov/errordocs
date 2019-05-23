@@ -2,10 +2,9 @@
 --><!--#set var="cache_control" value="no-cache"
 --><!--#include virtual="head"
 --><!--#include virtual="header"
---><section>
+-->
 <p>Очакването зададено в полето от заглавната част Expect не може да
 бъде задоволено от този сървър.</p>
-</section>
 
 <!--#include virtual="footer"
 --><!--#include virtual="foot"

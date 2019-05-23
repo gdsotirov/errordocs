@@ -2,11 +2,10 @@
 --><!--#set var="cache_control" value="no-store"
 --><!--#include virtual="head"
 --><!--#include virtual="header"
---><section>
+-->
 <p>The method specified in the request line <strong><!--#echo var="REQUEST_METHOD" --></strong>
 is not allowed for the resource identified by the request <abbr
 title="Uniform Resource Identifier">URI</abbr>.</p>
-</section>
 
 <!--#include virtual="footer"
 --><!--#include virtual="foot"

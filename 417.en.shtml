@@ -2,10 +2,9 @@
 --><!--#set var="cache_control" value="no-cache"
 --><!--#include virtual="head"
 --><!--#include virtual="header"
---><section>
+-->
 <p>The expectation given in an Expect request-header field could not be met
 by this server.</p>
-</section>
 
 <!--#include virtual="footer"
 --><!--#include virtual="foot"

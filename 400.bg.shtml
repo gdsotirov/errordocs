@@ -2,7 +2,7 @@
 --><!--#set var="cache_control" value="no-cache"
 --><!--#include virtual="head"
 --><!--#include virtual="header"
---><section>
+-->
 <p>Вашият потребителски агент изпрати заявка, която този сървър не можа да разбере:</p>
 <pre><strong><!--#echo var="REQUEST_URI" --></strong></pre>
 <p>Заявката не може да бъде разбрана от сървъра поради деформиран синтаксис.
@@ -11,7 +11,6 @@
 <a href="<!--#echo var="HTTP_REFERER"-->">препратилата ви страница</a> за
 деформираната връзка.<!--#else--> Моля, проверете вашата заявка за правописни
 грешки и опитайте отново.<!--#endif--></p>
-</section>
 
 <!--#include virtual="footer"
 --><!--#include virtual="foot"

@@ -2,11 +2,10 @@
 --><!--#set var="cache_control" value="no-cache"
 --><!--#include virtual="head"
 --><!--#include virtual="header"
---><section>
+-->
 <p>Сървъра отказа да изпълни заявката, защото съдържанието на заявката
 е във формат неподдържан от заявения ресурс за заявения метод
 <strong><!--#echo var="REQUEST_METHOD" --></strong>.</p>
-</section>
 
 <!--#include virtual="footer"
 --><!--#include virtual="foot"
