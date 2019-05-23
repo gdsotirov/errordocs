@@ -2,16 +2,16 @@
 <p>If you want you can search for the resource directly from here.</p>
 <!-- Google Search -->
 <div id="GoogleLogo">
-<a href="http://www.google.com/search" hreflang="en">
+<a href="https://www.google.com/search" hreflang="en">
 <img alt="[Google Search Logo]" height="53" src="/img/google_logo"
 width="128" title="Google Search" /></a>
 </div>
 
-<form action="http://www.google.com/custom" id="GoogleSearch" method="get">
+<form action="https://www.google.com/custom" id="GoogleSearch" method="get">
 <p><input name="ie" type="hidden" value="UTF-8" />
 <input name="oe" type="hidden" value="UTF-8" />
 <input name="safe" type="hidden" value="vss" />
-<input name="cof" type="hidden" value="S:http://<!--#echo var="SERVER_NAME" -->;AWFID:262c29acacd332f0" />
+<input name="cof" type="hidden" value="S:https://<!--#echo var="SERVER_NAME" -->;AWFID:262c29acacd332f0" />
 <input name="domains" type="hidden" value="<!--#echo var="SERVER_NAME" -->" />
 <input name="q" maxlength="255" size="40" type="text" value="" />
 <input name="sa" type="submit" value="Google Search" /><br />
