@@ -8,13 +8,14 @@
 <meta charset="utf-8">
 <title>[<!--#echo var="REDIRECT_STATUS"-->] <!--#echo var="title"--></title>
 <meta name="Author" content="Георги Д. Сотиров (gdsotirov@dir.bg)" />
-<meta name="Copyright" content="Автор &copy; 2005-2015 Георги Д. Сотиров" />
+<meta name="Copyright" content="Автор &copy; 2005-2019 Георги Д. Сотиров" />
 <meta name="Description" content="Международни необичайни съобщения за състоянието на HTTP" />
 <meta name="Keywords" content="http, съобщения за състоянието, международен" />
 <meta name="Generator" content="<!--#echo var="SERVER_SOFTWARE"-->" />
 <meta name="Generated" content="<!--#echo var="DATE_LOCAL"-->" />
 <meta name="robots" content="noindex,follow" />
 <meta name="googlebot" content="noindex,follow,noarchive" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="/error/default.css" media="screen, print" rel="Stylesheet" title="Default" />
 <link href="/style/speech.css" media="speech" rel="Stylesheet" title="Aural (Speech)" />
 </head>
