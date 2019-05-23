@@ -2,7 +2,7 @@
 --><!--#config timefmt="%F %T %Z"
 --><!DOCTYPE html>
 
-<html lang="en" manifest="/errors/errors.appcache">
+<html lang="en">
 
 <head>
 <meta charset="utf-8">
