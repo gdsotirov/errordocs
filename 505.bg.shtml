@@ -3,8 +3,10 @@
 --><!--#include virtual="head"
 --><!--#include virtual="header"
 -->
-<p>Сървъра не поддържа или отказва да поддържа <abbr title="Протокол за Предаване на Хипер Текст">ППХТ</abbr>
-версията използване в заявката <strong><!--#echo var="SERVER_PROTOCOL" --></strong>.</p>
+<p>Сървъра не поддържа или отказва да поддържа <abbr
+title="Протокол за Пренос на Хипер Текст">ППХТ</abbr> (<abbr lang="en"
+title="Hypertext Transfer Protocol">HTTP</abbr>)
+версията използванa в заявката <strong><!--#echo var="SERVER_PROTOCOL" --></strong>.</p>
 
 <!--#include virtual="footer"
 --><!--#include virtual="foot"
