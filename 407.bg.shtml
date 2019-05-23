@@ -1,4 +1,4 @@
-<!--#set var="title" value="Необходимо е упълномощяване от прокси сървър"
+<!--#set var="title" value="Необходимо е упълномощаване от прокси сървър"
 --><!--#set var="cache_control" value="no-cache"
 --><!--#include virtual="head"
 --><!--#include virtual="header"

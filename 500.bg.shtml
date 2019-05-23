@@ -1,4 +1,4 @@
-<!--#set var="title" value="Вътрешо-сървърна грешка"
+<!--#set var="title" value="Вътрешно-сървърна грешка"
 --><!--#set var="cache_control" value="no-cache"
 --><!--#set var="MailTo" value="Webmaster <$SERVER_ADMIN>"
 --><!--#set var="mailSubject" value="Грешка 500 при заявка '$$REQUEST_URI' изпълнена от '$SERVER_NAME:$SERVER_PORT' на $LOCAL_DATE"
