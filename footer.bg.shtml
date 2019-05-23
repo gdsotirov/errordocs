@@ -25,7 +25,7 @@
 
 <p>
 <!-- Valid XHTML 1.0 -->
-<a href="https://validator.w3.org/check?uri=referer" hreflang="en">
+<a href="https://validator.w3.org/check?uri=referer&No200=1" hreflang="en">
 <img alt="[Икона Валиден XHTML 1.0]" height="31" src="/img/valid-xhtml" title="Валиден XHTML 1.0!" width="88" /></a>&nbsp;
 <!-- Valid CSS -->
 <a href="https://jigsaw.w3.org/css-validator/check/referer" hreflang="en">
