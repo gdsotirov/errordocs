@@ -18,8 +18,8 @@
 </ul>
 <p>Можете да:</p>
 <ul>
-<li>проверите за правописни грешки в <abbr lang="en" title="Uniform Resource
-Identifier">URI</abbr> и да опитате отново;</li>
+<li>проверите за правописни грешки в <abbr lang="en" title="Uniform Resource Identifier">URI</abbr>
+и да опитате отново;</li>
 <li>опитате да заредите ресурса по-късно;</li>
 <li>се свържете с <a href="mailto:<!--#echo encoding="url" var="MailTo"
 -->?subject=<!--#echo encoding="url" var="MailSubject"

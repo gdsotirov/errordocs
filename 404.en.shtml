@@ -18,8 +18,8 @@ be temporary condition. Possibilities include:</p>
 </ul>
 <p>You can:</p>
 <ul>
-<li>check for typing errors in the <abbr title="Uniform Resource
-Identifier">URI</abbr> and try again;</li>
+<li>check for typing errors in the <abbr title="Uniform Resource Identifier">URI</abbr>
+and try again;</li>
 <li>try to load the resource later;</li>
 <li>contact the <a href="mailto:<!--#echo encoding="url" var="MailTo"
 -->?subject=<!--#echo encoding="url" var="MailSubject"
