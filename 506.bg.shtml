@@ -1,0 +1,10 @@
+<!--#set var="title" value="Вариант също се договаря"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
+--><!--#include virtual="header"
+-->
+<p>Прозрачнoто договаряне на съдържание за заявката <strong><!--#echo var="REQUEST_URI" --></strong>
+предизвика кръгово обръщение.</p>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

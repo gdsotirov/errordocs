@@ -1,0 +1,10 @@
+<!--#set var="title" value="Variant Also Negotiates"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
+--><!--#include virtual="header"
+-->
+<p>Transparent content negotiation for the request <strong><!--#echo var="REQUEST_URI" --></strong>
+results in a circular reference.</p>
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->
