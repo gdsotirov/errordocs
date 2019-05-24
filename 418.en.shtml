@@ -1,0 +1,31 @@
+<!--#set var="title" value="I'm a teapot"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
+--><!--#include virtual="header"
+--><section>
+<h2>I'm a little teapot</h2>
+<blockquote>
+I'm a little teapot
+Short and stout
+Here is my handle
+Here is my spout
+When I get all steamed up
+Hear me shout
+"Tip me over
+And pour me out!"
+
+I'm a clever teapot,
+Yes it's true
+Here let me show you
+What I can do
+I can change my handle
+And my spout
+Just tip me over and pour me out!
+</blockquote>
+<p>See <a href="https://tools.ietf.org/html/rfc2324">RFC 2324</a> for more
+details.</p>
+</section>
+
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->

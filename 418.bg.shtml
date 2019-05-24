@@ -1,0 +1,31 @@
+<!--#set var="title" value="Аз съм чайник"
+--><!--#set var="cache_control" value="no-cache"
+--><!--#include virtual="head"
+--><!--#include virtual="header"
+--><section>
+<h2>Аз съм малък чайник</h2>
+<blockquote>
+Аз съм малък чайник,
+нисък и дебел,
+ето я дръжката ми
+ето го чучура ми.
+Когато съм под пара
+ще ме чуеш да викам
+"Захлупи ме
+и налей!"
+
+Аз съм умен чайник,
+да така е.
+Ето, нека ти покажа
+какво мога.
+Мога да сменя дръжката си
+с чучура.
+Просто захлупи ме и налей!
+</blockquote>
+<p>Вижте <a hreflang="en" href="https://tools.ietf.org/html/rfc2324">RFC 2324</a>
+за повече подробности.</p>
+</section>
+
+<!--#include virtual="footer"
+--><!--#include virtual="foot"
+-->
