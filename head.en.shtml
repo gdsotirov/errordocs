@@ -7,7 +7,7 @@
 <head>
 <meta charset="utf-8">
 <title>[<!--#echo var="REDIRECT_STATUS"-->] <!--#echo var="title"--></title>
-<meta name="Author" content="Georgi D. Sotirov (gdsotirov@dir.bg)" />
+<meta name="Author" content="Georgi D. Sotirov (gdsotirov@gmail.com)" />
 <meta name="Copyright" content="Copyright &copy; 2005-2019 Georgi D. Sotirov" />
 <meta name="Description" content="HTTP Internationalized Custom Status Messages" />
 <meta name="Keywords" content="http, status messages, internationalization" />

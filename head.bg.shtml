@@ -7,7 +7,7 @@
 <head>
 <meta charset="utf-8">
 <title>[<!--#echo var="REDIRECT_STATUS"-->] <!--#echo var="title"--></title>
-<meta name="Author" content="Георги Д. Сотиров (gdsotirov@dir.bg)" />
+<meta name="Author" content="Георги Д. Сотиров (gdsotirov@gmail.com)" />
 <meta name="Copyright" content="Автор &copy; 2005-2019 Георги Д. Сотиров" />
 <meta name="Description" content="Международни необичайни съобщения за състоянието на HTTP" />
 <meta name="Keywords" content="http, съобщения за състоянието, международен" />
